@@ -1,0 +1,19 @@
+### POST request
+POST http://127.0.0.1:5000/api/calculator/tube1
+Content-Type: application/json
+
+{
+  "number1": 5,
+  "number2": 10,
+  "description": "example1"
+}
+
+### POST request
+POST http://127.0.0.1:5000/api/calculator/tube2
+Content-Type: application/json
+
+{
+  "number1": 100,
+  "number2": 20,
+  "description": "example2"
+}
